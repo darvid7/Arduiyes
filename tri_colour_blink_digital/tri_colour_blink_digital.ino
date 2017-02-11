@@ -1,4 +1,3 @@
-
 /*
  * I have no idea what i'm doing.exe
  */
@@ -41,6 +40,7 @@ void blue_on()
 // Do forever until turned off.
 void loop()
 {
+  Serial.print('starting..');
   red_on();
   delay(500);
   green_on();
